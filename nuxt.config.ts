@@ -10,8 +10,7 @@ export default defineNuxtConfig({
     reactivityTransform: true,
     viteNode: false,
   },
-  plugins: [
-  ],
+  plugins: ['@/plugins/vue-gtag'],
   colorMode: {
     classSuffix: '',
   },

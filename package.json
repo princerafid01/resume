@@ -30,6 +30,7 @@
     "@pinia-orm/nuxt": "^1.1.0",
     "primeicons": "^6.0.1",
     "primevue": "^3.17.0",
-    "vue-cookies": "^1.8.1"
+    "vue-cookies": "^1.8.1",
+    "vue-gtag": "^2.0.1"
   }
 }
