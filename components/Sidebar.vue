@@ -1,4 +1,6 @@
 <script setup>
+import Button from 'primevue/button'
+
 let isOpen = ref(false)
 
 function toggleMenu() {
@@ -95,9 +97,9 @@ function toggleMenu() {
         </li>
       </ul>
 
-      <div class="separator" />
+      <!-- <div class="separator" /> -->
 
-      <ul class="social-list">
+      <ul class="social-list mt-10">
         <li class="social-item">
           <NuxtLink to="https://twitter.com/MahmudRafid2" class="social-link" target="_blank">
             <ion-icon name="logo-twitter" />
@@ -116,6 +118,10 @@ function toggleMenu() {
         </li>
         <!-- <LangSwitcher2 /> -->
       </ul>
+
+      <a href="https://drive.google.com/file/d/1emsQuCO7GmET5oNGWyfPXIA8Nm-JktkP/view?usp=sharing" target="_blank" class="p-button opacity-90 block hover:opacity-100 text-white font-bold py-2 px-4 rounded w-full mt-5">
+        <span class="text-center mx-auto">Download Resume</span>
+      </a>
     </div>
   </aside>
 </template>

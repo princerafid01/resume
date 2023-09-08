@@ -369,7 +369,9 @@ main {
   transition: var(--transition-1);
   z-index: 1;
 }
-.desktop-email{display: block}
+.p-button {
+    background: var(--vegas-gold);
+}
 
 .info_more-btn::before {
   content: "";
