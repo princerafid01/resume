@@ -1,16 +1,8 @@
-<h2 align="center">
+# Resume GitHub Repository
 
-vCard Portfolio Nuxt 3 Template<br>
-<small>(extends from [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio))</small>
+Welcome to my live resume! You can view my complete resume and portfolio by visiting the live site and find my contact information, learn more about my skills and experiences here.
 
-</h2><br>
-
-<pre align="center">
-🧪 Working in Progress
-</pre>
-
-![vCard Desktop Demo](https://github.com/codewithsadee/vcard-personal-portfolio/raw/master/website-demo-image/desktop.png)
-![vCard Mobile Demo](https://github.com/codewithsadee/vcard-personal-portfolio/raw/master/website-demo-image/mobile.png)
+🔗 [View My Resume](https://mahmud-rafid.vercel.app)
 
 ## Features
 
@@ -30,18 +22,10 @@ vCard Portfolio Nuxt 3 Template<br>
 
 - 📥 APIs auto importing - for Composition API, VueUse and custom composables.
 
-- 🏎 Zero-config cloud functions and deploy
+## Resume
 
-- 🦾 TypeScript, of course
+You can access my most recent resume in PDF format here: [Resume.pdf](https://drive.google.com/file/d/1emsQuCO7GmET5oNGWyfPXIA8Nm-JktkP/view?usp=drive_link)
 
-## Plugins
+## Contact Information
 
-### Nuxt Modules
-
-- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
-- [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
+Feel free to reach out to me via email: [mahmudrafid02@gmail.com](mailto:mahmudrafid02@gmail.com)
