@@ -4,7 +4,7 @@ import { useLocaleStore } from './composables/locale'
 const { locale } = useI18n({ useScope: 'global' })
 const cookieLocale = useLocaleStore()
 
-locale.value = cookieLocale.getLocale || 'tr'
+locale.value = cookieLocale.getLocale || 'en'
 
 const loadingPage = ref()
 
