@@ -10,17 +10,17 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/my-avatar.png" alt="Azad Furkan ŞAKAR" width="80">
+        <img src="/images/my-avatar.png" alt="Mahmud Rafid" width="80">
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Azad Furkan ŞAKAR">
-          Azad Furkan ŞAKAR
+        <h1 class="name" title="Mahmud Rafid">
+          Mahmud Rafid
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Civil Engineer</span>
-          <span>Web developer</span>
+          <span class="xl:after:content-[''] after:content-[',']">Full Stack Web Developer</span>
+          <span>Laravel Artisan</span>
         </p>
       </div>
 
@@ -45,7 +45,10 @@ function toggleMenu() {
               Email
             </p>
 
-            <a href="mailto:info@afsakar.com" class="contact-link">info@afsakar.com</a>
+            <a href="mailto:mahmudrafid02@gmail.com" class="contact-link break-words whitespace-normal hidden lg:block"> <span class="xl:after:content-[''] after:content-[',']">mahmudrafid02</span>
+              <span>@gmail.com</span></a>
+
+            <a href="mailto:mahmudrafid02@gmail.com" class="contact-link break-words whitespace-normal  block lg:hidden">mahmudrafid02@gmail.com</a>
           </div>
         </li>
 
@@ -59,7 +62,7 @@ function toggleMenu() {
               Github
             </p>
 
-            <a href="https://github.com/afsakar" class="contact-link" target="_blank">afsakar</a>
+            <a href="https://github.com/princerafid01" class="contact-link" target="_blank">princerafid01</a>
           </div>
         </li>
 
@@ -73,7 +76,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://tr.linkedin.com/in/afsakar" class="contact-link" target="_blank">Azad Furkan ŞAKAR</a>
+            <a href="https://bd.linkedin.com/in/mahmud-rafid" class="contact-link" target="_blank">Mahmud Rafid</a>
           </div>
         </li>
 
@@ -87,7 +90,7 @@ function toggleMenu() {
               Location
             </p>
 
-            <address>Diyarbakır, Turkey</address>
+            <address>Dhaka, Bangladesh</address>
           </div>
         </li>
       </ul>
@@ -96,17 +99,17 @@ function toggleMenu() {
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="https://www.twitter.com/afsakar" class="social-link" target="_blank">
+          <NuxtLink to="https://twitter.com/MahmudRafid2" class="social-link" target="_blank">
             <ion-icon name="logo-twitter" />
           </NuxtLink>
         </li>
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/afsakar" class="social-link" target="_blank">
+          <NuxtLink to="https://www.instagram.com/iamrafid1999" class="social-link" target="_blank">
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>
-        <LangSwitcher2 />
+        <!-- <LangSwitcher2 /> -->
       </ul>
     </div>
   </aside>

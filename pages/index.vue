@@ -42,32 +42,75 @@ const { data: services } = await useFetch('/api/services')
       </h2>
     </header>
 
-    <section class="about-text">
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
+    <section class="about-text text-justify text-white">
+      <p class="text-xl">
+        I am a Full Stack Software Engineer specializing in building exceptional, high-quality websites and applications for web. Currently working at <a href="https://www.ivivelabs.com" class="inline-block vegas-gold" target="_blank">Ivivelabs</a>  as a Software Developer where I contributes to the Survey Maker SaaS applications by making Components with React, Laravel, Zustand etc.
       </p>
 
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
+      <p class="text-xl">
+        I write code for humans and provide solutions to businesses. I am a passoniate developer with broad cross-domain expertise: <span class="contents vegas-gold font-bold">API Development, Web, DevOps, Automation </span>. I enjoy working with passionate people in a team to build products and solutions that help a large number of people.
       </p>
+    </section>
+
+    <!-- Stacks -->
+    <section class="service">
+      <h3 class="h3 service-title">
+        Tech stacks I have experience with
+      </h3>
+      <div class="about-text max-w-none text-justify text-sm md:text-lg xl:col-span-2">
+        <h4 id="languages" class="font-bold">
+          <a href="#languages" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Languages:
+        </h4>
+        <p>PHP, Javascript</p>
+        <h4 id="frameworks" class="font-bold">
+          <a href="#frameworks" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Frameworks:
+        </h4>
+        <p>Laravel, Nuxtjs, Vue, React, jQuery, Wordpress</p>
+        <h4 id="tools" class="font-bold">
+          <a href="#tools" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Tools
+        </h4>
+        <p>MySQL, Redis, Zustand, Jest, Solr, Pinia(Vuex), Pupeteer</p>
+        <h4 id="server-related" class="font-bold">
+          <a href="#server-related" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Server related
+        </h4>
+        <p>Docker, CI/CD, Github Actions</p>
+      </div>
+    </section>
+
+    <!-- What I am doing -->
+    <section class="service">
+      <h3 class="h3 service-title">
+        What I am Currently doing?
+      </h3>
+
+      <ul class="text-white ml-2 leading-8">
+        <li class="block">
+          - Building Api with Laravel
+        </li>
+        <li class="block">
+          - Consuming Api with React
+        </li>
+        <li class="block">
+          - Playing with Vue 3
+        </li>
+        <li class="block">
+          - Exploring Shopify app developemnt
+        </li>
+      </ul>
     </section>
 
     <!-- service -->
 
     <section class="service">
       <h3 class="h3 service-title">
-        What i'm doing?
+        Tools
       </h3>
 
-      <ul class="service-list">
+      <!-- <ul class="service-list"> -->
+      <div class="container m-auto grid grid-cols-12">
         <ServiceItem v-for="service in services" :key="service.id" :service="service" />
-      </ul>
+      </div>
+      <!-- </ul> -->
     </section>
 
     <!-- testimonials -->
@@ -115,7 +158,7 @@ const { data: services } = await useFetch('/api/services')
             <h4 class="h3 modal-title">
               {{ testimonialItem.title }}
             </h4>
-            <time datetime="2021-06-14">14 June, 2021</time>
+            <time datetime="2022-06-28">28 June, 2022</time>
           </div>
         </div>
 
@@ -131,7 +174,7 @@ const { data: services } = await useFetch('/api/services')
 
     <!-- clients -->
 
-    <section class="clients">
+    <!-- <section class="clients">
       <h3 class="h3 clients-title">
         Clients
       </h3>
@@ -173,6 +216,6 @@ const { data: services } = await useFetch('/api/services')
           </a>
         </li>
       </ul>
-    </section>
+    </section> -->
   </article>
 </template>
