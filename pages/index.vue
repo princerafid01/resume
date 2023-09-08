@@ -42,12 +42,12 @@ const { data: services } = await useFetch('/api/services')
       </h2>
     </header>
 
-    <section class="about-text text-justify text-white">
-      <p class="text-xl">
+    <section class="about-text text-white">
+      <p class="text-md">
         I am a Full Stack Software Engineer specializing in building exceptional, high-quality websites and applications for web. Currently working at <a href="https://www.ivivelabs.com" class="inline-block vegas-gold" target="_blank">Ivivelabs</a>  as a Software Developer where I contributes to the Survey Maker SaaS applications by making Components with React, Laravel, Zustand etc.
       </p>
 
-      <p class="text-xl">
+      <p class="text-md">
         I write code for humans and provide solutions to businesses. I am a passoniate developer with broad cross-domain expertise: <span class="contents vegas-gold font-bold">API Development, Web, DevOps, Automation </span>. I enjoy working with passionate people in a team to build products and solutions that help a large number of people.
       </p>
     </section>
@@ -65,11 +65,11 @@ const { data: services } = await useFetch('/api/services')
         <h4 id="frameworks" class="font-bold">
           <a href="#frameworks" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Frameworks:
         </h4>
-        <p>Laravel, Nuxtjs, Vue, React, jQuery, Wordpress</p>
+        <p>Laravel, Nuxtjs, Vue, React, jQuery, Wordpress, Tailwind</p>
         <h4 id="tools" class="font-bold">
           <a href="#tools" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Tools
         </h4>
-        <p>MySQL, Redis, Zustand, Jest, Solr, Pinia(Vuex), Pupeteer</p>
+        <p>MySQL, Redis, Zustand, Jest, Solr, Pinia(Vuex), Puppeteer</p>
         <h4 id="server-related" class="font-bold">
           <a href="#server-related" aria-hidden="true" tabindex="-1" class="css-1tzfalu"><span class="icon icon-link" /></a>Server related
         </h4>
@@ -83,17 +83,17 @@ const { data: services } = await useFetch('/api/services')
         What I am Currently doing?
       </h3>
 
-      <ul class="text-white ml-2 leading-8">
-        <li class="block">
+      <ul class="text-white ml-2 leading-8 text-md">
+        <li class="block text-md">
           - Building Api with Laravel
         </li>
-        <li class="block">
+        <li class="block text-md">
           - Consuming Api with React
         </li>
-        <li class="block">
+        <li class="block text-md">
           - Playing with Vue 3
         </li>
-        <li class="block">
+        <li class="block text-md">
           - Exploring Shopify app developemnt
         </li>
       </ul>

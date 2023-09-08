@@ -109,6 +109,11 @@ function toggleMenu() {
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>
+        <li class="social-item">
+          <NuxtLink to="https://mahmudrafid.hashnode.dev/" class="social-link" target="_blank">
+            <ion-icon name="pencil-outline" />
+          </NuxtLink>
+        </li>
         <!-- <LangSwitcher2 /> -->
       </ul>
     </div>

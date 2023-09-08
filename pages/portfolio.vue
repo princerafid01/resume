@@ -50,7 +50,7 @@ function closeItem() {
     </header>
 
     <section class="projects">
-      <ul class="filter-list">
+      <!-- <ul class="filter-list">
         <li class="filter-item">
           <button :class="{ active: activeCategory === 0 }" @click="changeFilter(0)">
             All
@@ -62,9 +62,9 @@ function closeItem() {
             {{ locale === 'en' ? category.title?.en : category.title?.tr }}
           </button>
         </li>
-      </ul>
+      </ul> -->
 
-      <div class="filter-select-box">
+      <!-- <div class="filter-select-box">
         <button :class="{ active: filterMenu }" class="filter-select" @click="filterMenu = !filterMenu">
           <div class="select-value">
             {{ activeCategory !== 0 ? (locale === 'en' ? activeCategoryName?.en : activeCategoryName?.tr) : 'Select Category' }}
@@ -88,9 +88,10 @@ function closeItem() {
             </button>
           </li>
         </ul>
-      </div>
+      </div> -->
 
-      <ul class="project-list">
+      <!-- Content -->
+      <!-- <ul class="project-list">
         <li v-for="project in projectList" :key="project.id" :class="{ active: activeCategory === project.category.id || activeCategory === 0 }" class="project-item">
           <a class="cursor-pointer" @click="showItem(project.id)">
 
@@ -108,7 +109,7 @@ function closeItem() {
 
           </a>
         </li>
-      </ul>
+      </ul> -->
 
       <div class="modal-container" :class="{ active: activeModal }">
         <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" />

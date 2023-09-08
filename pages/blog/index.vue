@@ -2,11 +2,13 @@
 useHead({
   title: 'Blog',
 })
+// window.open('https://www.geeksforgeeks.org', '_blank')
+window.location.href = 'https://mahmudrafid.hashnode.dev'
 </script>
 
 <template>
   <article class="blog active" data-page="blog">
-    <header>
+    <!-- <header>
       <h2 class="h2 article-title">
         {{ $t('pageTitles.blog') }}
       </h2>
@@ -184,6 +186,6 @@ useHead({
           </a>
         </li>
       </ul>
-    </section>
+    </section> -->
   </article>
 </template>

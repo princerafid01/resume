@@ -24,13 +24,13 @@
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/blog" class="navbar-link">
+        <NuxtLink to="https://mahmudrafid.hashnode.dev" class="navbar-link" target="_blank">
           {{ $t('pageTitles.blog') }}
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/contact" class="navbar-link">
+        <NuxtLink to="https://bd.linkedin.com/in/mahmud-rafid" class="navbar-link" target="_blank">
           {{ $t('pageTitles.contact') }}
         </NuxtLink>
       </li>
