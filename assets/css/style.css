@@ -1885,10 +1885,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+
+}
+
   .timeline-item ul li {
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
   }
-
-}
