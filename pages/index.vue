@@ -107,7 +107,7 @@ const { data: services } = await useFetch('/api/services')
       </h3>
 
       <!-- <ul class="service-list"> -->
-      <div class="container m-auto grid grid-cols-12">
+      <div class="container mx-auto grid grid-cols-6 md:grid-cols-12">
         <ServiceItem v-for="service in services" :key="service.id" :service="service" />
       </div>
       <!-- </ul> -->
