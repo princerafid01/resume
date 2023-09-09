@@ -17,6 +17,17 @@ onMounted(() => {
     loadingPage.value = true
   }, 1000)
 })
+
+useHead({
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [{ name: 'description', content: 'Mahmud Rafid - Backend Engineer - Resume and Portfolio' }],
+  ogTitle: 'Mahmud Rafid - Backend Engineer - Resume and Portfolio',
+  description: 'Welcome to Mahmud Rafid\'s resume and portfolio site. Explore my professional background as a Backend Engineer and discover my work and achievements in the field.',
+  ogDescription: 'Welcome to Mahmud Rafid\'s resume and portfolio site. Explore my professional background as a Backend Engineer and discover my work and achievements in the field.',
+  ogImage: 'https://pbs.twimg.com/profile_images/1694780129380380672/fGXGHRnK_400x400.jpg',
+  twitterCard: 'https://pbs.twimg.com/profile_images/1694780129380380672/fGXGHRnK_400x400.jpg',
+})
 </script>
 
 <template>
